@@ -33,3 +33,4 @@ class AssistantFnc(llm.FunctionContext):
     self, zone: Annotated[Zone, llm.TypeInfo(description="The specific zone")]
     ):
        logger.info("get temp - zone %s", zone)
+       temp = self._temperature[Zone(zone)]
