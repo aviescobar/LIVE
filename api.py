@@ -31,3 +31,4 @@ class AssistantFnc(llm.FunctionContext):
  @llm.ai_callable(description="get the temperature in a specific room")
  def get_temperature(
     self, zone: Annotated[Zone, llm.TypeInfo(description="The specific zone")]
+    ):
