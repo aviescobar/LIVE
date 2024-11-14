@@ -24,3 +24,6 @@ class AssistantFnc(llm.FunctionContext):
       Zone.BEDROOM: 20,
       Zone.BATHROOM: 23,
       Zone.OFFICE: 21,
+
+
+   }
