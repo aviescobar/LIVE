@@ -44,3 +44,4 @@ def set_temperature(
  ):
 
      logger.info("set temo - zone %s, temp: %s", zone, temp)
+      self._temperature[Zone(zone)] = temp
