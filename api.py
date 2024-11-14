@@ -22,3 +22,4 @@ class AssistantFnc(llm.FunctionContext):
     self._temperature = {
       Zone.LIVING_ROOM: 22,
       Zone.BEDROOM: 20,
+      Zone.BATHROOM: 23,
