@@ -12,3 +12,4 @@ class Zone(enum.Enum):
   BEDROOM = "bedroom"
   KITCHEN = "kitchen"
   BATHROOM = "bathroom"
+  OFFICE = "office"
