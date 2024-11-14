@@ -38,3 +38,4 @@ class AssistantFnc(llm.FunctionContext):
  @llm.ai_callable(description="set the temperature in a specific room")
 
 def set_temperature(
+  self,
