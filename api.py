@@ -8,3 +8,4 @@ logger.setLevel(logging.INFO)
 
 
 class Zone(enum.Enum):
+  LIVING_ROOM = "living_room"
