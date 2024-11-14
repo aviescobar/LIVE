@@ -20,3 +20,4 @@ class AssistantFnc(llm.FunctionContext):
     super().__init__()
 
     self._temperature = {
+      Zone.LIVING_ROOM: 22,
