@@ -36,3 +36,5 @@ class AssistantFnc(llm.FunctionContext):
        temp = self._temperature[Zone(zone)]
         return f"The temperature in the {zone} is {temp}C"
  @llm.ai_callable(description="set the temperature in a specific room")
+
+def set_temperature(
