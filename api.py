@@ -40,3 +40,4 @@ class AssistantFnc(llm.FunctionContext):
 def set_temperature(
   self,
   zone: Annotated[Zone, llm.TypeInfo(description="The specific zone")],
+  temp: Annotated[int, llm.TypeInfo(description="The temperature to set")],
