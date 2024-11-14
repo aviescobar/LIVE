@@ -42,3 +42,5 @@ def set_temperature(
   zone: Annotated[Zone, llm.TypeInfo(description="The specific zone")],
   temp: Annotated[int, llm.TypeInfo(description="The temperature to set")],
  ):
+
+     logger.info("set temo - zone %s, temp: %s", zone, temp)
