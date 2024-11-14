@@ -13,3 +13,6 @@ class Zone(enum.Enum):
   KITCHEN = "kitchen"
   BATHROOM = "bathroom"
   OFFICE = "office"
+
+
+class AssistantFnc(llm.FunctionContext):
