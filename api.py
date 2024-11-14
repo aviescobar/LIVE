@@ -28,4 +28,5 @@ class AssistantFnc(llm.FunctionContext):
 
    }
 
-@llm.ai_callable(description="get the temperature in a specific room")
+ @llm.ai_callable(description="get the temperature in a specific room")
+ def get_temperature(
